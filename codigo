@@ -1,0 +1,7 @@
+lanche = int(input("Digite o valor do lanche:"))
+if lanche >= 20:
+    print("Muito caro, melhor levar de casa")
+elif lanche >= 10.01:
+    print("Esta ficando caro")
+else:
+    print("Preço justo")
